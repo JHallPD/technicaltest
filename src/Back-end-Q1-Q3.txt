@@ -18,3 +18,11 @@ and explain your reasoning.
     A simple expiry date and membership status is all that is needed on a user to track this.
 
     E: Django to gather the data out of the AWS db and pass it to the front end user to view on I would assume their user page/ stats & achievement page
+
+
+
+3: Describe RESTful API
+
+    A rest api is a type of interface that we use to interact with the database from the front end.
+    rest apis are stateles and this allowed them to run separate to each other.
+    This is what allows multiple users to do the same thing on a website without it getting confused.
