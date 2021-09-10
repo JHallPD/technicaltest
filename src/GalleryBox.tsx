@@ -11,7 +11,7 @@ function GalleryBox(data: Array<galleryItem>) {
     for(let i in data){
         items.push(
             <div className={'galleryItem'} key={i} style={{backgroundImage: `url(${image})`,backgroundRepeat: 'no-repeat',
-                backgroundSize: '33vh 18vh'}}>
+                backgroundSize: '100%'}}>
                 <div className={'itemHover'}>
                     <h5 className={'itemTitle'}>{data[i].title}</h5>
                     <div className={'itemLine'}></div>
