@@ -1,0 +1,20 @@
+1: Describe the ideal technology stack for a web platform that has the following features,
+naming specific solutions for front  and back0end (AWS, MongoDB, React.js, etc),
+and explain your reasoning.
+
+
+    A: I would use an AWS S3 bucket or a GC storage bucket. It depends on the company preferences more then my own here.
+    If everything is already set up on GC there is no point in moving it to AWS and vice versa both are perfectly servicable for the task.
+    React.js to display the content because it works well for this task as well as others in the list of objectives
+
+    B: React.js is an easy choice, it can handle the functionality needed for a CMS and easily pass the data to the backend.
+    While a django backend could handle large amounts of data regularly updating, It should be capable of multithreaded processing as well
+
+    C: React.js has a specific node package to host unity games on react https://www.npmjs.com/package/react-unity-webgl
+
+    D: React.js its an easy pick for objective C while being completely capable of all other objectives.
+    Depending on how the company is planning on taking in orders I would integrate stripe if it is up in the air
+    otherwise whatever payment system is preferred can easily be used.
+    A simple expiry date and membership status is all that is needed on a user to track this.
+
+    E: Django to gather the data out of the AWS db and pass it to the front end user to view on I would assume their user page/ stats & achievement page
